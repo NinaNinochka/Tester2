@@ -1,0 +1,66 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Scenario:Test LogIn funcionality"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Valid login",
+        "description": "",
+        "id": "test-banking-login-for-practice;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 291806755,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.StepsDefenitions.Java.LogIn.i_enter_valid_username(LogIn.java:18)\r\n\tat ✽.And i enter valid username \"damir1991\" and \"Kuchermmm777\"(p.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "i enter valid username \"damir1991\" and \"Kuchermmm777\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "damir1991",
+                  "offset": 24
+                },
+                {
+                  "val": "Kuchermmm777",
+                  "offset": 40
+                }
+              ],
+              "location": "LogIn.i_enter_valid_username(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I see logo is displayed",
+            "match": {
+              "location": "LogIn.i_see_logo_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test banking logIn for practice",
+    "description": "",
+    "id": "test-banking-login-for-practice",
+    "keyword": "Feature",
+    "uri": "p.feature"
+  }
+]
